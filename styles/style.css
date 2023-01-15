@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+.main-header {
+    max-width: 1440px;
+    width: 100%;
+    max-height: 80px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 17px 120px;
+    display: flex;
+}
+
+.image-logo {
+    max-width: 200px;
+    max-height: 32px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.nav-menu {
+    max-width: 352px;
+    width: 100%;
+    max-height: 28px;
+    height: 100%;
+    margin: 0px 198px;
+    margin: auto;
+}
+
+.picture {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+}
+
+ul {
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    align-items: center;
+    margin: auto
+}
+
+ul>li {
+    text-align: center;
+}
+
+a {
+    text-decoration-skip-ink: none;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #2F281E;
+
+
+}
+
+ul:first-child {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.registration-buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    align-items: center;
+    max-width: 252px;
+    width: 100%;
+    max-height: 46px;
+    height: 100%;
+    margin: auto;
+    gap: 32px;
+    margin: auto 0px auto;
+
+}
+
+button {
+    display: block;
+    background: #FF9900;
+    color: white;
+    font: 400 16px / 24px 'Arial', sans-serif;
+    transition: .2s all;
+    cursor: pointer;
+    border: 2px solid orange;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 46px;
+    top: 0px;
+    background: #FF9900;
+    border-radius: 4px;
+}
+
+button:hover {
+    border: 1px solid tomato;
+    background: white;
+
+}
+
+.first-button {
+    width: 110px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    color: #222;
+}
+
+.second-button {
+    width: 110px;
+    height: 46px;
+    background: #FF9900;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+
+/* Section-One */
+
+.section-one {
+    padding: 70px 120px 99px;
+}
+
+.section-one{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(495px, 1fr));
+    gap: 5px;
+}
+.text-area{
+    max-width: 700px;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.text-area-area{
+    max-width: 500px;
+    max-height: 231px;
+    width: 100%;
+    height: 100%;
+}
